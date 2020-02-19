@@ -1,15 +1,15 @@
 
 
-## The objectives of this assignment
+## The objectives
 * Implement the forward and backward passes as well as the neural network training procedure for Recurrent Neural Networks (RNNs)
 * Learn the basic concepts of language modeling and how to apply RNNs
 * Implement popular generative model, Generative Adversarial Networks (GANs)
 
-## Work on the assignment
+## Work on the project
 Please first clone or download as .zip file of this repository.
 
-Working on the assignment in a virtual environment is highly encouraged.
-In this assignment, please use Python `3.5` (or `3.6`).
+Working on the project in a virtual environment is highly encouraged.
+In this project, please use Python `3.5` (or `3.6`).
 You will need to make sure that your virtualenv setup is of the correct version of python.
 
 Please see below for executing a virtual environment.
@@ -29,12 +29,12 @@ pip3 install tensorflow
 # run this command only if your device supports gpu running
 pip3 install tensorflow-gpu
 
-# Work on the assignment
+# Work on the project
 deactivate # Exit the virtual environment
 ```
 
 ## Work with IPython Notebook
-To start working on the assignment, simply run the following command to start an ipython kernel.
+To start working on the project, simply run the following command to start an ipython kernel.
 ```shell
 # add your virtual environment to jupyter notebook
 python -m ipykernel install --user --name=/your/path/to/the/virtual/env
