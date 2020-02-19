@@ -1,4 +1,4 @@
-# CSCI-599 Assignment 2
+
 
 ## The objectives of this assignment
 * Implement the forward and backward passes as well as the neural network training procedure for Recurrent Neural Networks (RNNs)
