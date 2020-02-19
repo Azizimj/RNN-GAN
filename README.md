@@ -14,7 +14,7 @@ You will need to make sure that your virtualenv setup is of the correct version 
 
 Please see below for executing a virtual environment.
 ```shell
-cd CSCI599-Assignment2
+cd <wd>
 pip3 install virtualenv # If you didn't install it
 virtualenv -p $(which python3) /your/path/to/the/virtual/env
 source  /your/path/to/the/virtual/env/bin/activate
@@ -51,32 +51,8 @@ If the name of environment doesn't match, change it to your virtual environment 
 In each of the notebook file, we indicate `TODO` or `Your Code` for you to fill in with your implementation.
 Majority of implementations will also be required under `lib` with specified tags.
 
-### Problem 1:  (60 points)
+### Problem 1:
 The IPython Notebook `Problem_1.ipynb` will walk you through implementing a recurrent neural network (RNN) from scratch.
 
-### Problem 2: Generative Adversarial Networks  (40 points)
+### Problem 2: Generative Adversarial Networks
 The IPython Notebook `Problem_2.ipynb` will help you through implementing a generative adversarial network (GAN) using TensorFlow.
-
-## PLEASE DO NOT CLEAR THE OUTPUT OF EACH CELL IN THE .ipynb FILES
-Your outputs on the .ipynb files will be graded. We will not rerun the code. If the outputs are missing, that will be considered as if it is not attempted.
-
-## How to submit
-
-Run the following command to zip all the necessary files for submitting your assignment.
-
-```shell
-sh collectSubmission.sh
-```
-
-This will create a file named `assignment2.zip`, please rename it with your usc student id (eg. 4916525888.zip), and submit this file through the [Google form](https://goo.gl/forms/ZnGEMcsW9yULARju2).
-Do NOT create your own .zip file, you might accidentally include non-necessary
-materials for grading. We will deduct points if you don't follow the above
-submission guideline.
-
-## Questions?
-If you have any question or find a bug in this assignment (or even any suggestions), we are
-more than welcome to assist.
-
-Again, NO INDIVIDUAL EMAILS WILL BE RESPONDED.
-
-PLEASE USE **PIAZZA** TO POST QUESTIONS (under folder assignment2).
